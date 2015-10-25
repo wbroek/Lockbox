@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/granoff/Lockbox.git', :tag => '2.1.0' }
 
   s.platform = :ios
+  s.tvos.deployment_target = '9.0'
   s.source_files = 'Lockbox.{h,m}'
   s.frameworks = 'Security'
   s.requires_arc = true
